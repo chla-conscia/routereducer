@@ -2,7 +2,9 @@
 # RouteReducer
 
 ## Description
-RouteReducer is a tool designed to optimize and summarize lists of IP subnets, supporting both IPv4 and IPv6 addresses. It takes a list of subnets, sorts them, and uses the `aggregate6` command-line tool to efficiently combine contiguous and adjacent subnets into larger blocks where possible. The tool produces a detailed report in both CSV and Excel formats, listing each summarized subnet along with its contributing original subnets and a status comment.
+RouteReducer is a tool designed to optimize and summarize lists of IP subnets, supporting both IPv4 and IPv6 addresses. It takes a list of subnets, sorts them, and uses the `aggregate6` command-line tool to efficiently combine contiguous and adjacent subnets into larger blocks where possible.  
+
+The tool produces a detailed report in both CSV and Excel formats, listing each summarized subnet along with its contributing original subnets and a status comment.
 
 ## Structure
 ```
